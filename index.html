@@ -2,18 +2,25 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Currículum Vitae</title>
+
+    <meta name="description" content="This web page will show you my personal profile">
+    <meta name="robots" content="index,follow">
+    <link rel="shortcut icon" href="./Assets/icon-cv.png">
+    <meta name="keywords" content="Kevin Morales Rivera">
+    <meta name="author" content="Kevin Morales Rivera">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="profile">
-            <img src="/Curriculum/Assets/perfil.png" alt="Foto de perfil">
+            <img src="/Curriculum/Assets/perfil.jpeg" alt="Foto de perfil">
             <h1>Kevin Morales Rivera</h1>
             <p>Lic. en Ingenieria de Software</p>
             <a href="mailto:digutopia@gmail.com">Correo electrónico: digutopia@gmail.com</a>
-            <a href="https://linkedin.com/tu-perfil" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/kevin-morales-rivera-442994232/" target="_blank">LinkedIn</a>
         </div>
     </header>
 
@@ -37,15 +44,38 @@
     <section class="education">
         <h2>Educación</h2>
         <div class="school">
-            <h3>UNITEC</h3>
+            <h3>Universidad Tecnológica de México UNITEC</h3>
             <p>Ingeniería de Software | En curso</p>
+            <div class="images">
+                <a href="https://www.unitec.mx/">
+                    <img src="./Assets/UNITEC.jpg" alt="">
+                </a>
+            </div>
         </div>
         <h2>Cursos</h2>
         <div class="school">
             <h3>QuickLearning</h3>
             <p>2017 - 2018 </p>
             <p> Curso de inglés Certificado TOEFL B1</p>
-        </div>        
+        </div>
+        <div class="school">
+            <h3>CISCO</h3>
+
+            <p>2022 - Introduction to cybersecurity</p>
+            <div class="images">
+                <a href="https://www.credly.com/badges/9597944d-d9c5-43df-9463-7ba6d96d618f/public_url" target="_blank">
+                    <img src="./Assets/introduction-to-cybersecurity.png" alt="">
+                
+                </a>
+            </div>
+
+            <p>2022 - Introduction to IOT</p>
+            <div class="images">                
+                <a href="https://www.credly.com/badges/bb11d70d-7075-43ff-a582-62d810b92f17/public_url" target="_blank">
+                    <img src="./Assets/introduction-to-iot.png" alt="">
+                </a>
+            </div>
+        </div> 
         <div class="school">
             <h3>Platzi</h3>
             <p>2022 - EN CURSO </p>
@@ -56,6 +86,11 @@
                 <li>Habilidades Blandas.</li>
                 <li>Inglés.</li>
             </ul>
+            <div class="images">
+                <a href="https://platzi.com/p/Zoikev/" target="_blank">
+                    <img src="./Assets/Platzi.jpg" alt="">
+                </a>
+            </div>
             <p>Link de perfil <a href="https://platzi.com/p/Zoikev/">aquí</a></p>
         </div>
         
@@ -65,7 +100,7 @@
         <h2>Conocimientos</h2>
         <p>Manejo de programas de edición</p>
         <ul>
-            <li>Texto y diseño, Office, CorelDraw.</li>
+            <li>Texto y diseño, Excel, Office, CorelDraw.</li>
             <li>Fotos y video, Photoshop, Premiere.</li>
             <li>CAD en 2D y 3D, Autocad, Blender.</li>
         </ul>
@@ -75,6 +110,49 @@
             <li>HTML y CSS</li>
             <li>JavaScript</li>
         </ul>
+        <div class="images">
+            <img class="img_large" src="./Assets/lenguajes_1.png" alt="programming languages">
+        </div>
+    </section>
+
+    <section class="proyects">
+        <h2>Proyectos</h2>
+        <h3>Juego de Piedra papel o tijeras</h3>
+        <p>Link de juego <a href="https://zoikev.github.io/RockPaperScissors/">aquí</a></p>
+        <div class="images">
+            <a href="https://zoikev.github.io/RockPaperScissors/">
+                <img class="img_games" src="./Assets/rockpaperorscissors.png" alt="rockPaperScissors">
+            </a>
+        </div>
+        <h3>Bloc de notas</h3>
+        <p>Link de proyecto <a href="https://zoikev.github.io/Memo-pad/">aquí</a></p>
+        <div class="images">            
+            <a href="https://zoikev.github.io/Memo-pad/">
+                <img class="img_games" src="Assets/memoPadScreen.png" alt="memoPadScreen">
+            </a>
+        </div>
+        </div>
+        <h3>Calculadora Basica</h3>
+        <p>Link de proyecto <a href="https://zoikev.github.io/BasicCalculator/">aquí</a></p>
+        <div class="images">            
+            <a href="https://zoikev.github.io/BasicCalculator/">
+                <img class="img_games" src="Assets/Calculator.jpg" alt="memoPadScreen">
+            </a>
+        </div>
+        <h3>Mokepon GAME</h3>
+        <p>Link de repositorio <a href="https://github.com/zoikev/MokeponGame">aquí</a></p>
+        <div class="images">            
+            <a href="https://github.com/zoikev/MokeponGame">
+                <img class="img_games" src="Assets/mokepon_web.png" alt="mokepon">
+            </a>
+        </div>
+        <h3>Lista de compras con React para Firebase</h3>
+        <p>Link de repositorio <a href="https://github.com/zoikev/toShopList/tree/master">aquí</a></p>
+        <div class="images">
+            <a href="https://github.com/zoikev/toShopList">
+                <img class="img_games" src="Assets/toShopList.png" alt="mokepon">
+            </a>
+        </div>
     </section>
 
 </body>

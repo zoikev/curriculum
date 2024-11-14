@@ -63,6 +63,10 @@ h2 {
     padding-bottom: 5px;
 }
 
+.images {
+    text-align: center;
+}
+
 /* Estilos de las listas */
 ul {
     list-style-type: square;
